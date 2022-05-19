@@ -94,7 +94,7 @@ submit.addEventListener("click", (e)=>{
    const answer = onSelect()
     
      console.log(answer)
-    
+    if(answer){
     if (answer === quizData[currentQuiz].correct){
         score++
     }
@@ -120,7 +120,7 @@ submit.addEventListener("click", (e)=>{
         
          
     }
-   
+}
 
 
  })
